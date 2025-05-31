@@ -19,6 +19,7 @@ function App() {
   return (
     <div className='box'>
       <ContactForm />
+      <SearchBox />
       {loading && !error && <b>Request in progress...</b>}
       <ContactList />
     </div>
